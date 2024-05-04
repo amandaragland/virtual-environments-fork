@@ -1,13 +1,3 @@
-$ErrorActionPreference = 'Stop'
-
-enum ImageType {
-    Windows2016 = 0
-    Windows2019 = 1
-    Windows2022 = 2
-    Ubuntu1804 = 3
-    Ubuntu2004 = 4
-    Ubuntu2204 = 5
-}
 
 Function Get-PackerTemplatePath {
     param (
